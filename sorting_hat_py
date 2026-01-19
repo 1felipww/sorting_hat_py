@@ -1,0 +1,55 @@
+# The Sorting Hat Quiz
+print("The Sorting Hat\nChoose between 1 or 2 to answer the test\nGood Luck!\n")
+
+# Initialize house scores
+huf = 0
+sly = 0
+rav = 0
+gryf = 0
+
+# Question 1
+q1 = int(input("Q1) Do you prefer Dawn or Dusk?\n1) Dawn\n2) Dusk\n\nAnswer: "))
+if q1 == 1:
+    gryf += 1
+    rav += 1
+elif q1 == 2:
+    huf += 1
+    sly += 1
+else:
+    print("Wrong input.")
+
+# Question 2
+q2 = int(input("Q2) When I’m dead, I want people to remember me as:\n1) The Good\n2) The Great\n3) The Wise\n4) The Bold\n\nAnswer: "))
+if q2 == 1:
+    huf += 2
+elif q2 == 2:
+    sly += 2
+elif q2 == 3:
+    rav += 2
+elif q2 == 4:
+    gryf += 2
+else:
+    print("Wrong input.")
+
+# Question 3
+q3 = int(input("Q3) Which kind of instrument most pleases your ear?\n1) The violin\n2) The trumpet\n3) The piano\n4) The drum\n\nAnswer: "))
+if q3 == 1:
+    sly += 4
+elif q3 == 2:
+    huf += 2
+elif q3 == 3:
+    rav += 4
+elif q3 == 4:
+    gryf += 4
+else:
+    print("Wrong input.")
+
+# Determine which house has the highest score
+if sly > huf and sly > gryf and sly > rav:
+    print("You are Slytherin!")
+elif huf > sly and huf > gryf and huf > rav:
+    print("You are Hufflepuff!")
+elif gryf > sly and gryf > rav and gryf > huf:
+    print("You are Gryffindor!")
+else:
+    print("You are Ravenclaw!")
