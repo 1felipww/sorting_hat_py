@@ -22,7 +22,9 @@ Para rodar este projeto na sua máquina, você precisará ter o [Python](https:/
 3. Navegue até a pasta onde o arquivo está salvo.
 4. Execute o seguinte comando (substitua `nome_do_arquivo.py` pelo nome que você deu ao seu arquivo):
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   Aproveitem! :)
+
+-------------------------------------------------------------------------------------------------------------------------------------------
 
 🧙‍♂️ The Sorting Hat Quiz
 This is a simple and fun project I decided to create because I am a fan of the Harry Potter book franchise, simulating the iconic Sorting Hat ceremony. Answer the three questions and find out which Hogwarts house you belong to! 🏰✨
@@ -47,5 +49,4 @@ To run this project on your machine, you will need to have [Python](https://www.
 4. Run the following command (replace `filename.py` with the name you gave your file):
 
 
-
-python nome_do_arquivo.py
+Enjoy!:)
