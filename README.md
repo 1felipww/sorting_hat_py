@@ -50,4 +50,4 @@ To run this project on your machine, you will need to have [Python](https://www.
 4. Run the following command (replace `filename.py` with the name you gave your file):
 
 
-Enjoy!:)
+Enjoy! :)
