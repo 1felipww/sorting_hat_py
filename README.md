@@ -27,6 +27,7 @@ Para rodar este projeto na sua máquina, você precisará ter o [Python](https:/
 -------------------------------------------------------------------------------------------------------------------------------------------
 
 🧙‍♂️ The Sorting Hat Quiz
+
 This is a simple and fun project I decided to create because I am a fan of the Harry Potter book franchise, simulating the iconic Sorting Hat ceremony. Answer the three questions and find out which Hogwarts house you belong to! 🏰✨
 
 📋 About the Project
